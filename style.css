@@ -1,0 +1,329 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+     font-size: 18px;
+     background-color: black;
+      
+     color: rgba(255, 255, 255, 0.873);
+}
+
+.contact_buttun
+{
+    background: rgb(132,115,13);
+background: linear-gradient(183deg, rgba(132,115,13,1) 0%, rgba(255,1,79,1) 0%, rgba(218,69,5,0.8520658263305322) 100%);
+    font-weight: 600;
+      text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.873);
+}
+.contact_buttun a
+{
+    text-decoration: none;
+    color: white;
+}
+.contact_buttun:hover
+{
+    background: rgb(132,115,13);
+    background: linear-gradient(0deg, rgba(132,115,13,1) 0%, rgba(255,1,79,1) 0%, rgba(218,69,5,0.8520658263305322) 100%);
+    color: rgba(255, 255, 255, 0.873);
+    transform: scale(0.9);
+    
+}
+.navbar
+{
+    margin-top: 2%;
+} 
+.navbar-brand
+{
+    color: #ff014f;
+    font-size: 23px;
+}
+.navbar-brand:hover
+{
+    color: #ffff;
+}
+.navbar ul li a
+{
+    color: rgba(255, 255, 255, 0.873);
+}
+.navbar ul li a:hover
+{
+    color: #ff014f;
+}
+
+/*--------------------------------------*/
+.baground
+{
+   background:url( img/Untitled.jpg); 
+    height: 700px;
+    width: 100%;
+    margin-top: 2%;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+     
+}
+.welcome
+{
+   
+    color: white;
+   border-radius: 10px;
+   font-weight: 600;
+   font-size:25px;
+   margin-top: 15%;
+   display: flex;
+   text-transform: uppercase;
+   text-align: center;
+   padding-left: 3%;
+   background: rgb(132,115,13);
+background: linear-gradient(184deg, rgba(132,115,13,1) 0%, rgba(255,1,79,1) 0%, rgba(185,3,65,0.7596288515406162) 100%);
+
+
+}
+.profile
+{
+    height: 500px;
+    width: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.Heading
+{
+    font-size: 85px;
+    font-weight: 800;
+    padding-top: 3%;
+}
+.subheading
+{
+    font-size: 25px;
+}
+.typing-text {
+    overflow: hidden;
+    white-space: nowrap;
+    color: #ff014f;
+    border-right: 1px solid #ffffffce; /* Blinking cursor effect */
+    font-size: 75px;
+    font-weight: 700;
+    animation: typing 3s steps(10) infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 16%;
+    }
+}
+
+.social-media
+  {
+      height: 50px;
+      width: 50px; 
+      margin-right: 10px;
+      margin-bottom: 5%;
+      position:initial;
+      display: inline-block;
+     align-items: center;
+     padding: 1rem 0.9rem;
+      vertical-align: middle;
+      border-radius: 5px;
+      background:linear-gradient(145deg, #0e0d0d, #222222); 
+      box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  
+  }
+  
+  .social-media a
+  {
+      text-decoration: none;
+  }
+  
+  ion-icon 
+  {
+      font-size: 23px;
+      color: rgba(202, 202, 202, 0.8);
+      position:initial;
+  
+  }
+  
+  .social-media:hover 
+  {
+     
+    background: rgb(132,115,13);
+    background: linear-gradient(183deg, rgba(132,115,13,1) 0%, rgba(255,1,79,1) 0%, rgba(218,69,5,0.8520658263305322) 100%);
+        color: white;
+      animation: pulse 1s ease-in-out infinite alternate; 
+  }
+  .contact :hover
+  {
+    animation: pulse 1s ease-in-out infinite alternate; 
+  }
+  @keyframes pulse {
+    0% {
+      box-shadow: 0px 0px 0px rgb(208, 6, 53); /* Initial state: no shadow */
+    }
+    50% {
+      box-shadow: 0px 0px 20px rgb(208, 6, 53); /* Expand shadow equally in all directions */
+    }
+    100% {
+      box-shadow: 0px 0px 0px rgb(208, 6, 53); /* Return to initial state */
+    }
+  }
+   
+/*------------------------------------------*/
+
+.progress
+{
+	background-color: rgb(89, 87, 87);
+	height: 5px;
+	margin-top: 2%;
+	width: 90%;
+    
+	margin-left: 3%;
+}
+.listtext
+{
+	margin-left: 3%;
+    margin-top: 5%;
+	color: white;
+}
+.progress-bar {
+	border-radius: 10px;
+	background-color: #c8013d;  /* Rounded corners for skill bars */
+ }
+   
+/*-----------------------------------------------------*/
+.tab_heading
+{
+text-align: center;
+align-items: center;
+background: rgb(132,115,13);
+background: linear-gradient(184deg, rgba(132,115,13,1) 0%, rgba(255,1,79,1) 0%, rgba(185,3,65,0.7596288515406162) 100%);
+text-transform: uppercase;
+font-size: 28px;
+height: 50px; 
+width: 100%;
+border-radius: 10px;
+padding-top: 2%;
+
+}
+.rowmargin
+{
+    margin-top: 10%;
+}
+.tab_subheading
+{
+    text-align: center;
+    font-size:60px;
+    font-weight: 700;
+    padding-top: 2%;
+    margin-top: 1%;
+}
+.tab_subheading span
+{
+    color: #ff014f;
+}
+.tab_para
+{
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.59);
+}
+.skilldiv
+{
+    background-color: rgb(21, 21, 21);
+    border: 2px solid #0e0d0d;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: auto;
+    width: 100%;
+    padding-bottom: 2%; 
+}
+
+ 
+ 
+.skills{ /*style the text*/
+	width: 500px;
+	margin: 60px auto;
+	color: #ffffffb9;
+}
+  
+ 
+
+.educard
+{
+    background-color: black;
+    border: 2px solid rgba(121, 121, 121, 0.542);
+    margin-top: 5%;
+    height: 90%;
+    border-radius: 10px; 
+    padding-bottom: 2%;
+    
+    
+}
+.educard :hover
+{
+    color:rgba(255, 255, 255, 0.915);
+    background-color: #b30237;
+    border-radius: 10px;
+    
+    
+   
+}
+.educard .card-title
+{
+    color: rgba(255, 255, 255, 0.915);
+
+}
+.educard .card-text
+{
+    color: rgba(255, 255, 255, 0.768);
+
+}
+
+.projectcard
+{
+    
+    background-color: black;
+    border: 2px solid rgba(121, 121, 121, 0.542);
+    margin-top: 5%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.projectcard :hover
+{
+    color:rgba(255, 255, 255, 0.915);
+    background-color: #b30237;
+     border-radius: 10px;
+    
+
+}
+.projectcard .card-title
+{
+    color: rgba(255, 255, 255, 0.915);
+
+}
+.projectcard .card-text  
+{
+    color: rgba(255, 255, 255, 0.768);
+
+}
+.boldtext
+{
+    font-weight: 800;
+}
+
+footer
+{
+    background-color: #090909;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 0;
+}
